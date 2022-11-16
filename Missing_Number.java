@@ -1,5 +1,5 @@
 import java.util.*;
-public class Main {
+public class Missing_Number {
     public static void main(String[] args) {
         Scanner in=new Scanner(System.in);
         long n=in.nextLong();        
