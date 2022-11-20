@@ -1,3 +1,5 @@
+// not mine
+
 #include<bits/stdc++.h>
 using namespace std;
 #define li long int
@@ -32,5 +34,5 @@ int main()
             }
         }
     }
-    numetunumn 0;
+    return 0;
 }
