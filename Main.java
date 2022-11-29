@@ -1,15 +1,17 @@
 import java.util.*;
-class Main{
+public class Main {
     public static void main(String[] args) {
         Scanner in=new Scanner(System.in);
-        long num=in.nextLong();
-        long res=0;  
-        while(num>0){
-            num=num/5;
-            res+=num;
+        int num=in.nextInt();
+        long mod=1000000007; 
+        int ans=1;
+        for(int i=0;i<num;i++){
+            ans = ans*2;
+            ans%=mod;
         }
-        System.out.print(res);
+        System.out.print(ans);
     }
 }
 
-// number of zeroes can be determined by counting number of 5
+//A bit string is a sequence consisting of 0's and 1's. If the length of this sequence is N, 
+//How many distinct bit strings can we make ? YES buddy, this is a combinatorics problem :)
